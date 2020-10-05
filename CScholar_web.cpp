@@ -1,3 +1,5 @@
+/* A better way for students to find scholarships they qualify for */
+/* Things i need to fix: GPA, CC's dont have Juniors or Seniors */
 #include <iostream>
 
 using namespace std;
@@ -316,6 +318,81 @@ void scholarships()
     }
   } else if(school_year == 4){
     /* Senior */
+    if (state_choice == 1) {
+      /* Senior Colorado */
+      if (colo_school_choice == 1) {
+        /* Senior UCCS */
+        if (uccs_major_choice == 1) {
+          /* Senior UCCS Nursing Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Colorado Senior Nursing Award: $3000" << endl;
+          cout << "2. UCCS Chancallors Award: $2500" << endl;
+          cin >> page_choice;
+        } else {
+          /* Senior UCCS Business Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Colorado Senior Business Award: $3000" << endl;
+          cout << "2. UCCS Chancallors Award: $2500" << endl;
+          cin >> page_choice;
+        }
+      } else {
+        /* Senior Pikes Peak */
+        if (pikes_peak_major_choice == 1) {
+          /* Senior Pikes Peak Nursing Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Colorado Senior Nursing Award: $3000" << endl;
+          cout << "2. Pikes Peak Chancallors Award: $1500" << endl;
+          cin >> page_choice;
+        } else {
+          /* Senior Pikes Peak Business Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Colorado Senior Business Award: $3000" << endl;
+          cout << "2. Pikes Peak Chancallors Award: $1500" << endl;
+          cin >> page_choice;
+        }
+      }
+    } else {
+      /* Senior Idaho */
+      if (idaho_school_choice == 1){
+        /* Senior NIC */
+        if (nic_major_choice == 1) {
+          /* Senior NIC Nursing Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Idaho Senior Nursing Award: $2500" << endl;
+          cout << "2. NIC Chancallors Award: $1500" << endl;
+          cin >> page_choice;
+        } else {
+          /* Senior NIC Business Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Idaho Senior Business Award: $2000" << endl;
+          cout << "2. NIC Chancallors Award: $1500" << endl;
+          cin >> page_choice;
+        }
+      } else {
+        /* Senior University of Idaho */
+        if (ui_major_choice == 1) {
+          /* Senior U of I Nursing Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Idaho Senior Nursing Award: $2500" << endl;
+          cout << "2. U of I Chancallors Award: $2500" << endl;
+          cin >> page_choice;
+        } else {
+          /* Senior U of I Business Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Idaho Senior Business Award: $2000" << endl;
+          cout << "2. U of I Chancallors Award: $2500" << endl;
+          cin >> page_choice;
+        }
+      }
+    }
   } else {
     /* Defualt No Scholarships At This Time */
     cout << "No scholarships at this time." << endl;
