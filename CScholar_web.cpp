@@ -167,7 +167,7 @@ void scholarships()
       if (colo_school_choice == 1) {
         /* Sophmore UCCS */
         if (uccs_major_choice == 1) {
-          /* Freshman UCCS Nursing Scholarships */
+          /* Sophmore UCCS Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
           cout << "Choose the number to be brought to the application page." << endl;
           cout << "1. Colorado Sophmore Nursing Award: $2500" << endl;
@@ -237,11 +237,86 @@ void scholarships()
         }
       }
     }
-  } else if(){
+  } else if(school_year == 3){
     /* Junior */
-  } else if(){
+    if (state_choice == 1) {
+      /* Junior Colorado */
+      if (colo_school_choice == 1) {
+        /* Junior UCCS */
+        if (uccs_major_choice == 1) {
+          /* Junior UCCS Nursing Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Colorado Junior Nursing Award: $3000" << endl;
+          cout << "2. UCCS Chancallors Award: $2500" << endl;
+          cin >> page_choice;
+        } else {
+          /* Junior UCCS Business Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Colorado Junior Business Award: $3000" << endl;
+          cout << "2. UCCS Chancallors Award: $2500" << endl;
+          cin >> page_choice;
+        }
+      } else {
+        /* Junior Pikes Peak */
+        if (pikes_peak_major_choice == 1) {
+          /* Junior Pikes Peak Nursing Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Colorado Junior Nursing Award: $3000" << endl;
+          cout << "2. Pikes Peak Chancallors Award: $1500" << endl;
+          cin >> page_choice;
+        } else {
+          /* Junior Pikes Peak Business Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Colorado Junior Business Award: $3000" << endl;
+          cout << "2. Pikes Peak Chancallors Award: $1500" << endl;
+          cin >> page_choice;
+        }
+      }
+    } else {
+      /* Junior Idaho */
+      if (idaho_school_choice == 1){
+        /* Junior NIC */
+        if (nic_major_choice == 1) {
+          /* Junior NIC Nursing Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Idaho Junior Nursing Award: $2500" << endl;
+          cout << "2. NIC Chancallors Award: $1500" << endl;
+          cin >> page_choice;
+        } else {
+          /* Junior NIC Business Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Idaho Junior Business Award: $2000" << endl;
+          cout << "2. NIC Chancallors Award: $1500" << endl;
+          cin >> page_choice;
+        }
+      } else {
+        /* Junior University of Idaho */
+        if (ui_major_choice == 1) {
+          /* Junior U of I Nursing Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Idaho Junior Nursing Award: $2500" << endl;
+          cout << "2. U of I Chancallors Award: $2500" << endl;
+          cin >> page_choice;
+        } else {
+          /* Junior U of I Business Scholarships */
+          cout << "Here are the scholarships your are eligible for." << endl;
+          cout << "Choose the number to be brought to the application page." << endl;
+          cout << "1. Idaho Junior Business Award: $2000" << endl;
+          cout << "2. U of I Chancallors Award: $2500" << endl;
+          cin >> page_choice;
+        }
+      }
+    }
+  } else if(school_year == 4){
     /* Senior */
-  } eles {
+  } else {
     /* Defualt No Scholarships At This Time */
     cout << "No scholarships at this time." << endl;
   }
