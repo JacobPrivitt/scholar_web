@@ -1,0 +1,24 @@
+CScholar_Web
+By: Jacob Privitt
+
+ PATCH NOTES
+
+ October 4th, 2020
+ -- Initial Commit
+ --- Laid code foundation
+ --- Freshman year
+
+ October 5th, 2020
+ -- First Patch
+ --- Added Sophomore Year
+ --- Fixed comments
+ --- Added Junior Year
+ --- Added Default for tolerance
+ --- Added Senior Year and TO-DO list
+
+ October, 7th 2020
+ --Second Patch
+ --- Added 2 schools
+ --- Removed CC's from Upper level classes
+ --- Fixed bugs
+ --- Added comments
