@@ -1,5 +1,5 @@
 /* A better way for students to find scholarships they qualify for */
-/* Things i need to fix: GPA, CC's dont have Juniors or Seniors */
+/* Things i need to fix: GPA Req. */
 #include <iostream>
 
 using namespace std;
@@ -46,13 +46,13 @@ void scholarships()
   cout << "2. Idaho" << endl;
   cin >> state_choice;
 
-	if (state_choice == 1) {
+	if (state_choice == 1) { //Colorado
     cout << "Choose Your School" << endl;
     cout << "1. UCCS" << endl;
     cout << "2. Pikes Peak" << endl;
     cout << "3. CCU" << endl;
     cin >> colo_school_choice;
-	} else {
+	} else { // Idaho
     cout << "Choose Your School" << endl;
     cout << "1. NIC" << endl;
     cout << "2. UI" << endl;
@@ -60,44 +60,56 @@ void scholarships()
     cin >> idaho_school_choice;
 	}
 
-  if (colo_school_choice == 1) {
+  if (colo_school_choice == 1) { // UCCS
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> uccs_major_choice;
-	} else if (colo_school_choice == 2) {
+	} else if (colo_school_choice == 2) { // Pikes Peak
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> pikes_peak_major_choice;
-  } else if (colo_school_choice == 3) {
+  } else if (colo_school_choice == 3) { // CCU
     cout << "Choose your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> ccu_major_choice;
-	} else if (idaho_school_choice == 1) {
+	} else if (idaho_school_choice == 1) { // NIC
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> nic_major_choice;
-	} else if (idaho_school_choice == 2) {
+	} else if (idaho_school_choice == 2) { // UI
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> ui_major_choice;
-	} else if (idaho_school_choice = 3) {
+	} else if (idaho_school_choice = 3) { // BSU
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> bsu_major_choice;
   }
 
+  if (colo_school_choice == 2) {
+    cout << "What Year are You?" << endl;
+  cout << "1. Freshman" << endl;
+  cout << "2. Sohpomore" << endl;
+  cin >> school_year;
+} else if (idaho_school_choice == 1) {
+  cout << "What Year are You?" << endl;
+  cout << "1. Freshman" << endl;
+  cout << "2. Sohpomore" << endl;
+  cin >> school_year;
+} else {
   cout << "What Year are You?" << endl;
   cout << "1. Freshman" << endl;
   cout << "2. Sohpomore" << endl;
   cout << "3. Junior" << endl;
   cout << "4. Senior" << endl;
   cin >> school_year;
+}
 
   if (school_year == 1) {
     /* Freshman */

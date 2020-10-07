@@ -22,3 +22,4 @@ By: Jacob Privitt
  --- Removed CC's from Upper level classes
  --- Fixed bugs
  --- Added comments
+ --- Removed Upper Level grade options from CC list
