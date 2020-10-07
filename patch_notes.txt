@@ -3,12 +3,12 @@ By: Jacob Privitt
 
  PATCH NOTES
 
- October 4th, 2020
+ October 4th, 2020 Ver. 1.0
  -- Initial Commit
  --- Laid code foundation
  --- Freshman year
 
- October 5th, 2020
+ October 5th, 2020 Ver. 1.101.11,1.12
  -- First Patch
  --- Added Sophomore Year
  --- Fixed comments
@@ -16,10 +16,12 @@ By: Jacob Privitt
  --- Added Default for tolerance
  --- Added Senior Year and TO-DO list
 
- October, 7th 2020
+ October, 7th 2020 Ver. 1.2,1.21,1.22
  --Second Patch
  --- Added 2 schools
  --- Removed CC's from Upper level classes
  --- Fixed bugs
  --- Added comments
  --- Removed Upper Level grade options from CC list
+ --- Military Update
+ --- Grammar
