@@ -16,12 +16,12 @@ By: Jacob Privitt
  --- Added Default for tolerance
  --- Added Senior Year and TO-DO list
 
- October, 7th 2020 Ver. 1.2,1.21,1.22
+ October, 7th 2020 Ver. 1.2,1.21,1.22,1.23
  --Second Patch
  --- Added 2 schools
  --- Removed CC's from Upper level classes
  --- Fixed bugs
  --- Added comments
  --- Removed Upper Level grade options from CC list
- --- Military Update
+ --- Military Update I,II
  --- Grammar

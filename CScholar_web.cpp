@@ -11,7 +11,7 @@
  // License: GNU_GPL_V3
  // Open source, feel fre to contribute
 
- // Current Version: 1.22
+ // Current Version: 1.23
 
 #include <iostream>
 
@@ -85,31 +85,55 @@ void scholarships()
 
 
   if (colo_school_choice == 1) { // UCCS
+    if (military_enrollment == 1) {
+      cout << "UCCS awards military service men and women an $8000 yearly award." << endl;
+      cout << "Please contact the VA contact at your college or university for info." << endl << endl;
+    }
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> uccs_major_choice;
 	} else if (colo_school_choice == 2) { // Pikes Peak
+    if (military_enrollment == 1) {
+      cout << "PPCC awards military service men and women an $4000 yearly award." << endl;
+      cout << "Please contact the VA contact at your college or university for info." << endl << endl;
+    }
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> pikes_peak_major_choice;
   } else if (colo_school_choice == 3) { // CCU
+    if (military_enrollment == 1) {
+      cout << "CCU does not award military service men and women a scholarship." << endl;
+      cout << "Others schools in the area do, consider tranfering." << endl << endl;
+    }
     cout << "Choose your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> ccu_major_choice;
 	} else if (idaho_school_choice == 1) { // NIC
+    if (military_enrollment == 1) {
+      cout << "NIC awards military service men and women an $5000 yearly award." << endl;
+      cout << "Please contact the VA contact at your college or university for info." << endl << endl;
+    }
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> nic_major_choice;
 	} else if (idaho_school_choice == 2) { // UI
+    if (military_enrollment == 1) {
+      cout << "U of I awards military service men and women an $10000 yearly award." << endl;
+      cout << "Please contact the VA contact at your college or university for info." << endl << endl;
+    }
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
     cin >> ui_major_choice;
 	} else if (idaho_school_choice = 3) { // BSU
+    if (military_enrollment == 1) {
+      cout << "BSU does not award military service men and women a scholarship." << endl;
+      cout << "Others schools in the area do, consider tranfering." << endl << endl;
+    }
     cout << "Choose Your Major" << endl;
     cout << "1. Nursing" << endl;
     cout << "2. Business" << endl;
@@ -141,10 +165,6 @@ void scholarships()
       /* Freshman Colorado */
       if (colo_school_choice == 1) {
         /* Freshman UCCS */
-        if (military_enrollment == 1) {
-          cout << "UCCS awards military service men and women an $8000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (uccs_major_choice == 1) {
           /* Freshman UCCS Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -162,10 +182,6 @@ void scholarships()
         }
       } else if (colo_school_choice == 2) {
         /* Freshman Pikes Peak */
-        if (military_enrollment == 1) {
-          cout << "PPCC awards military service men and women an $4000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (pikes_peak_major_choice == 1) {
           /* Freshman Pikes Peak Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -183,10 +199,6 @@ void scholarships()
         }
       } else {
         /* Freshman CCU */
-        if (military_enrollment == 1) {
-          cout << "CCU does not award military service men and women a scholarship." << endl;
-          cout << "Others schools in the area do, consider tranfering." << endl;
-        }
         if (ccu_major_choice == 1) {
           /* Freshman CCU Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -207,10 +219,6 @@ void scholarships()
       /* Freshman Idaho */
       if (idaho_school_choice == 1){
         /* Freshman NIC */
-        if (military_enrollment == 1) {
-          cout << "NIC awards military service men and women an $5000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (nic_major_choice == 1) {
           /* Freshman NIC Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -228,10 +236,6 @@ void scholarships()
         }
       } else if (idaho_school_choice == 2) {
         /* Freshman University of Idaho */
-        if (military_enrollment == 1) {
-          cout << "U of I awards military service men and women an $10000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (ui_major_choice == 1) {
           /* Freshman U of I Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -249,10 +253,6 @@ void scholarships()
         }
       } else {
         /* Freshman BSU */
-        if (military_enrollment == 1) {
-          cout << "BSU does not award military service men and women a scholarship." << endl;
-          cout << "Others schools in the area do, consider tranfering." << endl;
-        }
         if (bsu_major_choice == 1) {
           /* Freshman BSU Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -275,10 +275,6 @@ void scholarships()
       /* Sohpomore Colorado */
       if (colo_school_choice == 1) {
         /* Sohpomore UCCS */
-        if (military_enrollment == 1) {
-          cout << "UCCS awards military service men and women an $8000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (uccs_major_choice == 1) {
           /* Sohpomore UCCS Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -296,10 +292,6 @@ void scholarships()
         }
       } else if (colo_school_choice == 2) {
         /* Sohpomore Pikes Peak */
-        if (military_enrollment == 1) {
-          cout << "PPCC awards military service men and women an $4000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (pikes_peak_major_choice == 1) {
           /* Sohpomore Pikes Peak Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -317,10 +309,6 @@ void scholarships()
         }
       } else {
         /* Sohpomore CCU */
-        if (military_enrollment == 1) {
-          cout << "CCU does not award military service men and women a scholarship." << endl;
-          cout << "Others schools in the area do, consider tranfering." << endl;
-        }
         if (ccu_major_choice == 1) {
           /* Sohpomore CCU Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -341,10 +329,6 @@ void scholarships()
       /* Sohpomore Idaho */
       if (idaho_school_choice == 1) {
         /* Sohpomore NIC */
-        if (military_enrollment == 1) {
-          cout << "NIC awards military service men and women an $5000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (nic_major_choice == 1) {
           /* Sohpomore NIC Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -362,10 +346,6 @@ void scholarships()
         }
       } else if (idaho_school_choice == 2){
         /* Sohpomore University of Idaho */
-        if (military_enrollment == 1) {
-          cout << "U of I awards military service men and women an $10000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (ui_major_choice == 1) {
           /* Sohpomore U of I Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -383,10 +363,6 @@ void scholarships()
         }
       } else {
         /* Sohpomore BSU */
-        if (military_enrollment == 1) {
-          cout << "BSU does not award military service men and women a scholarship." << endl;
-          cout << "Others schools in the area do, consider tranfering." << endl;
-        }
         if (bsu_major_choice == 1) {
           /* Sohpomore BSU Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -410,10 +386,6 @@ void scholarships()
       /* Junior Colorado */
       if (colo_school_choice == 1) {
         /* Junior UCCS */
-        if (military_enrollment == 1) {
-          cout << "UCCS awards military service men and women an $8000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (uccs_major_choice == 1) {
           /* Junior UCCS Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -431,10 +403,6 @@ void scholarships()
         }
       } else if (colo_school_choice == 3){
         /* Junior CCU */
-        if (military_enrollment == 1) {
-          cout << "CCU does not award military service men and women a scholarship." << endl;
-          cout << "Others schools in the area do, consider tranfering." << endl;
-        }
         if (ccu_major_choice == 1) {
           /* Junior CCU Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -457,10 +425,6 @@ void scholarships()
       /* Junior Idaho */
       if (idaho_school_choice == 3){
         /* Junior BSU */
-        if (military_enrollment == 1) {
-          cout << "BSU does not award military service men and women a scholarship." << endl;
-          cout << "Others schools in the area do, consider tranfering." << endl;
-        }
         if (bsu_major_choice == 1) {
           /* Junior BSU Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -478,10 +442,6 @@ void scholarships()
         }
       } else if (idaho_school_choice == 2){
         /* Junior University of Idaho */
-        if (military_enrollment == 1) {
-          cout << "U of I awards military service men and women an $10000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (ui_major_choice == 1) {
           /* Junior U of I Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -507,10 +467,6 @@ void scholarships()
       /* Senior Colorado */
       if (colo_school_choice == 1) {
         /* Senior UCCS */
-        if (military_enrollment == 1) {
-          cout << "UCCS awards military service men and women an $8000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (uccs_major_choice == 1) {
           /* Senior UCCS Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -528,10 +484,6 @@ void scholarships()
         }
       } else if (colo_school_choice == 3) {
         /* Senior CCU */
-        if (military_enrollment == 1) {
-          cout << "CCU does not award military service men and women a scholarship." << endl;
-          cout << "Others schools in the area do, consider tranfering." << endl;
-        }
         if (ccu_major_choice == 1) {
           /* Senior CCU Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -554,10 +506,6 @@ void scholarships()
       /* Senior Idaho */
       if (idaho_school_choice == 3){
         /* Senior BSU */
-        if (military_enrollment == 1) {
-          cout << "BSU does not award military service men and women a scholarship." << endl;
-          cout << "Others schools in the area do, consider tranfering." << endl;
-        }
         if (bsu_major_choice == 1) {
           /* Senior BSU Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
@@ -575,10 +523,6 @@ void scholarships()
         }
       } else if(idaho_school_choice == 2) {
         /* Senior University of Idaho */
-        if (military_enrollment == 1) {
-          cout << "U of I awards military service men and women an $10000 yearly award." << endl;
-          cout << "Please contact the VA contact at your college or university for info." << endl;
-        }
         if (ui_major_choice == 1) {
           /* Senior U of I Nursing Scholarships */
           cout << "Here are the scholarships your are eligible for." << endl;
